@@ -75,7 +75,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/zack/Desktop/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/zack/Desktop/egg/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -88,8 +88,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/zack/Desktop/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/zack/Desktop/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/zack/Desktop/egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/zack/Desktop/egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -135,14 +135,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/zack/Desktop/egg-example/app/public",
+      "dir": "/Users/zack/Desktop/egg/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/zack/Desktop/egg-example/app/view",
+      "root": "/Users/zack/Desktop/egg/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -184,9 +184,9 @@
         "egg-bin": "^4.14.0"
       }
     },
-    "baseDir": "/Users/zack/Desktop/egg-example",
+    "baseDir": "/Users/zack/Desktop/egg",
     "HOME": "/Users/zack",
-    "rundir": "/Users/zack/Desktop/egg-example/run",
+    "rundir": "/Users/zack/Desktop/egg/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -218,7 +218,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/zack/Desktop/egg-example/logs/egg-example",
+      "dir": "/Users/zack/Desktop/egg/logs/egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -305,8 +305,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -318,8 +318,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-security@2.7.0@egg-security",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-security@2.7.0@egg-security",
       "version": "2.7.0"
     },
     "jsonp": {
@@ -331,8 +331,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -344,8 +344,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -355,8 +355,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -366,8 +366,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -377,8 +377,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -390,8 +390,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-multipart@2.9.0@egg-multipart",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart",
       "version": "2.9.0"
     },
     "development": {
@@ -405,8 +405,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-development@2.4.3@egg-development",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -418,8 +418,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -429,8 +429,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -440,8 +440,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/Users/zack/Desktop/egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -454,8 +454,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zack/Desktop/egg-example/config/plugin.js",
-      "path": "/Users/zack/Desktop/egg-example/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
+      "from": "/Users/zack/Desktop/egg/config/plugin.js",
+      "path": "/Users/zack/Desktop/egg/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks",
       "version": "2.2.0"
     }
   }
