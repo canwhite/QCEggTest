@@ -1,0 +1,184 @@
+2019-10-25 17:50:59,299 ERROR 86491 [-/::1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/lib/application.js:266:15)
+    at Object.get cookies [as cookies] (/Users/zack/Desktop/egg-example/node_modules/_egg@2.24.0@egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/zack/Desktop/egg-example/node_modules/_egg-security@2.7.0@egg-security/app/extend/context.js:87:33)
+    at Object.ensureCsrfSecret (/Users/zack/Desktop/egg-example/node_modules/_egg-security@2.7.0@egg-security/app/extend/context.js:98:13)
+    at csrf (/Users/zack/Desktop/egg-example/node_modules/_egg-security@2.7.0@egg-security/lib/middlewares/csrf.js:15:11)
+    at dispatch (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/zack/Desktop/egg-example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/zack/Desktop/egg-example/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+
+pid: 86491
+hostname: bogon
+
+2019-10-25 19:00:55,944 ERROR 86988 nodejs.ClusterClientNoResponseError: client no response in 1013917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 86988
+hostname: bogon
+
+2019-10-26 19:25:48,098 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 87670769ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-26 21:47:34,576 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 84826ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-27 11:29:14,668 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 48799428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-27 12:00:10,535 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 1816823ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-27 12:34:36,009 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 2045469ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-27 19:34:05,268 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 25129711ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-27 20:20:10,446 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 2745174ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-28 08:21:16,833 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 43266385ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-28 08:57:47,835 ERROR 87642 nodejs.ClusterClientNoResponseError: client no response in 2190998ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/zack/Desktop/egg-example/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 87642
+hostname: zackdeMacBook-Pro.local
+
+2019-10-28 10:15:37,675 ERROR 96000 [-/127.0.0.1/-/17ms GET /news] nodejs.ReferenceError: ctx is not defined
+    at NewsController.list (/Users/zack/Desktop/egg-example/app/controller/news.js:14:26)
+    at Object.callFn (/Users/zack/Desktop/egg-example/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/zack/Desktop/egg-example/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/zack/Desktop/egg-example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zack/Desktop/egg-example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/zack/Desktop/egg-example/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/zack/Desktop/egg-example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/zack/Desktop/egg-example/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 96000
+hostname: bogon
+
+2019-10-28 10:42:53,029 ERROR 96951 [-/127.0.0.1/-/5051ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/zack/Desktop/egg-example/node_modules/_urllib@2.34.1@urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5032,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 96951
+hostname: bogon
+
+2019-10-28 10:43:14,511 ERROR 96951 [-/127.0.0.1/-/5010ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/zack/Desktop/egg-example/node_modules/_urllib@2.34.1@urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5007,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 96951
+hostname: bogon
+
+2019-10-28 10:44:54,201 ERROR 97027 [-/127.0.0.1/-/5036ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/zack/Desktop/egg-example/node_modules/_urllib@2.34.1@urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5026,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 97027
+hostname: bogon
+
