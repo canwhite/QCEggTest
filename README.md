@@ -18,5 +18,6 @@ view       ：前端插件，注意在config/plugin.js中注册一下
 ## how to use
 pull下代码之后：
 cnpm i
+
 然后我又用了一个moment，so：
 cnpm i moment 
