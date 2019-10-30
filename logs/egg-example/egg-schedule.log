@@ -265,3 +265,18 @@
 2019-10-28 15:44:37,693 INFO 4706 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
 2019-10-28 15:44:37,693 INFO 4706 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2019-10-28 15:44:37,693 INFO 4706 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-30 09:47:12,858 INFO 34008 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-30 09:47:12,858 INFO 34008 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-30 09:47:12,858 INFO 34008 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-30 09:47:12,988 INFO 34006 [Timer] /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67367016ms at 2019-10-31 04:30:00.004
+2019-10-30 09:47:12,988 INFO 34006 [Timer] /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 51167012ms at 2019-10-31 00:00:00.000
+2019-10-30 09:47:12,989 INFO 34006 [Timer] /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51168012ms at 2019-10-31 00:00:01.001
+2019-10-30 09:48:12,066 INFO 34058 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-30 09:48:12,066 INFO 34058 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-30 09:48:12,066 INFO 34058 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-30 09:48:13,013 INFO 34066 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-30 09:48:13,013 INFO 34066 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-30 09:48:13,013 INFO 34066 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-30 09:48:17,299 INFO 34072 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-30 09:48:17,299 INFO 34072 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-30 09:48:17,299 INFO 34072 [egg-schedule]: register schedule /Users/zack/Desktop/egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

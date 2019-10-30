@@ -1117,3 +1117,60 @@
 2019-10-28 15:44:37,798 INFO 4706 [egg-watcher:application] watcher start success
 2019-10-28 15:44:37,806 INFO 4706 [egg:core] dump config after ready, 6ms
 2019-10-28 15:44:59,247 INFO 4706 [egg-view-nunjucks] loading templates from ["/Users/zack/Desktop/egg/app/view"]
+2019-10-30 09:47:12,828 INFO 34008 [egg:logger] init all loggers with options: {"dir":"/Users/zack/Desktop/egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 09:47:12,858 INFO 34008 [egg-multipart] stream mode enable
+2019-10-30 09:47:12,935 INFO 34008 [egg-static] starting static serve /public/ -> /Users/zack/Desktop/egg/app/public
+2019-10-30 09:47:12,938 INFO 34008 [egg-security] use csrf middleware
+2019-10-30 09:47:12,939 INFO 34008 [egg-security] use methodnoallow middleware
+2019-10-30 09:47:12,940 INFO 34008 [egg-security] use noopen middleware
+2019-10-30 09:47:12,941 INFO 34008 [egg-security] use nosniff middleware
+2019-10-30 09:47:12,941 INFO 34008 [egg-security] use xssProtection middleware
+2019-10-30 09:47:12,942 INFO 34008 [egg-security] use xframe middleware
+2019-10-30 09:47:12,943 INFO 34008 [egg-security] use dta middleware
+2019-10-30 09:47:12,943 INFO 34008 [egg-security] compose 7 middlewares into one security middleware
+2019-10-30 09:47:12,953 INFO 34008 [egg:core] dump config after load, 6ms
+2019-10-30 09:47:12,971 INFO 34008 [egg-watcher:application] watcher start success
+2019-10-30 09:47:12,980 INFO 34008 [egg:core] dump config after ready, 7ms
+2019-10-30 09:47:51,649 INFO 34008 [egg-view-nunjucks] loading templates from ["/Users/zack/Desktop/egg/app/view"]
+2019-10-30 09:48:12,032 INFO 34058 [egg:logger] init all loggers with options: {"dir":"/Users/zack/Desktop/egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 09:48:12,067 INFO 34058 [egg-multipart] stream mode enable
+2019-10-30 09:48:12,128 INFO 34058 [egg-static] starting static serve /public/ -> /Users/zack/Desktop/egg/app/public
+2019-10-30 09:48:12,131 INFO 34058 [egg-security] use csrf middleware
+2019-10-30 09:48:12,132 INFO 34058 [egg-security] use methodnoallow middleware
+2019-10-30 09:48:12,133 INFO 34058 [egg-security] use noopen middleware
+2019-10-30 09:48:12,134 INFO 34058 [egg-security] use nosniff middleware
+2019-10-30 09:48:12,135 INFO 34058 [egg-security] use xssProtection middleware
+2019-10-30 09:48:12,136 INFO 34058 [egg-security] use xframe middleware
+2019-10-30 09:48:12,137 INFO 34058 [egg-security] use dta middleware
+2019-10-30 09:48:12,137 INFO 34058 [egg-security] compose 7 middlewares into one security middleware
+2019-10-30 09:48:12,150 INFO 34058 [egg:core] dump config after load, 7ms
+2019-10-30 09:48:12,167 INFO 34058 [egg-watcher:application] watcher start success
+2019-10-30 09:48:12,180 INFO 34058 [egg:core] dump config after ready, 10ms
+2019-10-30 09:48:12,983 INFO 34066 [egg:logger] init all loggers with options: {"dir":"/Users/zack/Desktop/egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 09:48:13,013 INFO 34066 [egg-multipart] stream mode enable
+2019-10-30 09:48:13,053 INFO 34066 [egg-static] starting static serve /public/ -> /Users/zack/Desktop/egg/app/public
+2019-10-30 09:48:13,055 INFO 34066 [egg-security] use csrf middleware
+2019-10-30 09:48:13,056 INFO 34066 [egg-security] use methodnoallow middleware
+2019-10-30 09:48:13,056 INFO 34066 [egg-security] use noopen middleware
+2019-10-30 09:48:13,057 INFO 34066 [egg-security] use nosniff middleware
+2019-10-30 09:48:13,058 INFO 34066 [egg-security] use xssProtection middleware
+2019-10-30 09:48:13,058 INFO 34066 [egg-security] use xframe middleware
+2019-10-30 09:48:13,059 INFO 34066 [egg-security] use dta middleware
+2019-10-30 09:48:13,059 INFO 34066 [egg-security] compose 7 middlewares into one security middleware
+2019-10-30 09:48:13,072 INFO 34066 [egg:core] dump config after load, 6ms
+2019-10-30 09:48:13,086 INFO 34066 [egg-watcher:application] watcher start success
+2019-10-30 09:48:13,095 INFO 34066 [egg:core] dump config after ready, 7ms
+2019-10-30 09:48:17,254 INFO 34072 [egg:logger] init all loggers with options: {"dir":"/Users/zack/Desktop/egg/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-30 09:48:17,299 INFO 34072 [egg-multipart] stream mode enable
+2019-10-30 09:48:17,346 INFO 34072 [egg-static] starting static serve /public/ -> /Users/zack/Desktop/egg/app/public
+2019-10-30 09:48:17,348 INFO 34072 [egg-security] use csrf middleware
+2019-10-30 09:48:17,349 INFO 34072 [egg-security] use methodnoallow middleware
+2019-10-30 09:48:17,349 INFO 34072 [egg-security] use noopen middleware
+2019-10-30 09:48:17,350 INFO 34072 [egg-security] use nosniff middleware
+2019-10-30 09:48:17,350 INFO 34072 [egg-security] use xssProtection middleware
+2019-10-30 09:48:17,351 INFO 34072 [egg-security] use xframe middleware
+2019-10-30 09:48:17,351 INFO 34072 [egg-security] use dta middleware
+2019-10-30 09:48:17,351 INFO 34072 [egg-security] compose 7 middlewares into one security middleware
+2019-10-30 09:48:17,361 INFO 34072 [egg:core] dump config after load, 6ms
+2019-10-30 09:48:17,376 INFO 34072 [egg-watcher:application] watcher start success
+2019-10-30 09:48:17,386 INFO 34072 [egg:core] dump config after ready, 7ms

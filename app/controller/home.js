@@ -3,7 +3,12 @@ const Controller = require('egg').Controller;
 
 class HomeController extends Controller{
     async index(){
-        this.ctx.body = 'hi, egg';
+        const ctx = this.ctx;
+        ctx.set('Content-Type', 'application/json');
+        //ctx.status = 200;
+        ctx.body = {data:{
+            message:'hello world'
+        }};
     }
 }
 module.exports  = HomeController;
